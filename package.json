@@ -1,0 +1,17 @@
+{
+  "name": "s3-bucket-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hussam.",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.656.0",
+    "dotenv": "8.2.0",
+    "yargs": "15.3.1"
+  }
+}
